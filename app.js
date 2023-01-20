@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-module.exports = app;
 const mongoose = require("mongoose");
 const todoRegisterRoutes = require("./routes/todo");
 
